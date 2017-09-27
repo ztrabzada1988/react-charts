@@ -23,12 +23,12 @@ class App extends Component {
           {
             label:'Reddit Followers',
             data:[
-              617594,
-              181045,
-              153060,
-              106519,
-              105162,
-              95072
+              300000,
+              180000,
+              98000,
+              76000,
+              34000,
+              95000
             ],
             backgroundColor:[
               'rgba(255, 99, 132, 0.6)',
