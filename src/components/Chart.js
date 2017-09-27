@@ -14,7 +14,6 @@ class Chart extends Component {
     displayTitle: true,
     displayLegend: true,
     legendPosition: 'right',
-    location: 'City'
   }
 
   render() {
@@ -25,7 +24,7 @@ class Chart extends Component {
           options={{
             title:{
               display:this.props.displayTitle,
-              text:'Community Strength' + this.props.location,
+              text:'Community Strength',
               fontSize:25
             },
             legend:{
@@ -41,7 +40,7 @@ class Chart extends Component {
           options={{
             title:{
               display:this.props.displayTitle,
-              text:'Community Strength'+this.props.location,
+              text:'Community Strength',
               fontSize:25
             },
             legend:{
@@ -56,7 +55,7 @@ class Chart extends Component {
           options={{
             title:{
               display:this.props.displayTitle,
-              text:'Community Strength'+this.props.location,
+              text:'Community Strength',
               fontSize:25
             },
             legend:{

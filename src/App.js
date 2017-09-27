@@ -52,7 +52,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Crypto Commmunity Data Charts</h2>
         </div>
-        <Chart chartData={this.state.chartData} location="New York" legendPosition="bottom"/>
+        <Chart chartData={this.state.chartData} legendPosition="bottom"/>
       </div>
     );
   }
